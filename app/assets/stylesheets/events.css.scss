@@ -1,9 +1,15 @@
-// Place all the styles related to the board controller here.
+// Place all the styles related to the Events controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.board_format {
+.event_format {
 	text-align: center;
 	margin: 1em;
 	padding: 1em;
+
+	.event_text {
+		text-align: left;
+		width: 80%;
+		margin: 5% 0% 5% 10%;
+	}
 }

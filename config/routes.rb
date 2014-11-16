@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'events/maker_faire'
+
   get 'board' => 'board#index'
 
   get 'home' => 'welcome#index'
