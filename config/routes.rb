@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'events/camp_wics'
+
   get 'events/dd_danielle_bassett'
 
   get 'events/maker_faire'
