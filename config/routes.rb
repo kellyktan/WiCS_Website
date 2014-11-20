@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'events/dd_benedict_brown-ies' => 'events#dd_benedict_brown-ies'
+
   get 'events/google_trip'
 
   get 'events/camp_wics'
