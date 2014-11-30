@@ -5,5 +5,25 @@
 .board_format {
 	text-align: center;
 	margin: 1em;
-	padding: 1em;
+	padding: 0 1em 5em 1em;
+
+	.board_member {
+		padding: 1em 0 0 7%;
+		text-align: left;
+
+		.board_picture {
+			padding: 15px 0 0 0;
+		    border-radius: 50%;
+		    display: inline-block;
+		}
+		.board_picture img {
+		    border-radius: 50%;
+		    display: block;
+		}
+
+		.board_text {
+			width: 90%;
+			margin: 0 0 5%;
+		}
+	}
 }

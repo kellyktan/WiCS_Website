@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'events/techbrunch_1.0' => 'events#techbrunch_1.0'
+
   get 'events/ladyhacks'
 
   get 'events/dd_benedict_brown-ies' => 'events#dd_benedict_brown-ies'
