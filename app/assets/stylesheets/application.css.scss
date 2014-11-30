@@ -18,12 +18,21 @@
 @import "bootstrap";
 
 body {
-    padding-top: 2em;
+    padding: 2em 2em 2em 0;
     font-size: 1.75em;
 }
 
 #sidebar {
     position: fixed;
+    padding-right: 3em;
+}
+
+.container {
+    width: 100%;
+}
+
+.sidebar_container {
+    width: 20%
 }
 
 .dropdown-submenu {
@@ -71,4 +80,7 @@ body {
 .content {
     padding-left: 25%;
     font-size: .85em;
+    .content_actual {
+        background: #f2f2f2;
+    }
 }

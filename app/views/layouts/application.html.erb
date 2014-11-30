@@ -10,15 +10,12 @@
     
   <div class="container">
       
+    <div class="sidebar_container">
       <!-- sidebar -->
       <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation" data-spy="affix">
           <ul class="nav">
             <li class="active">
-              <a href="../home">
-                <img alt="Brand" src="https://farm8.staticflickr.com/7497/15620952597_497b73d799_o.png" width="130">
-                <p></p>
-                WiCS Residential
-              </a>
+              <a href="../home"><img alt="logo" src="https://farm8.staticflickr.com/7497/15620952597_497b73d799_o.png" width="100%"></a>
             </li>
             <li><a href="../board">Board</a></li>
            <li class="dropdown">
@@ -28,7 +25,7 @@
                   <a tabindex="-1" href="#">Dinner Discussions</a>
                   <ul class="dropdown-menu">
                     <li><a href="../events/dd_danielle_bassett">Danielle Bassett</a></li>
-                    <li><a href="../events/dd_benedict_brown-ies">Benedict Brown-ies</a></li>
+                    <li><a href="../events/dd_benedict_brown">Benedict Brown</a></li>
                   </ul>
                 </li>
                 <li><a href="../events/techbrunch_1.0">WiCS TechBrunch 1.0</a></li>
@@ -40,11 +37,13 @@
             </li>            
           </ul>
       </div>
+    </div>
   
     <div class="content">
-      <%= yield %>
-    </div>
-      
+      <div class="content_actual">
+        <%= yield %>
+     </div>
+    </div>  
   </div><!--/.container-->
 
 </body>
