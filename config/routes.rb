@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'projects/rittenhouse_orrery'
+
   get 'events/dd_rajiv_gandhi'
 
   get 'events/techbrunch_1.0' => 'events#techbrunch_1.0'
