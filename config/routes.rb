@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
+  get 'events/femmehacks_2015'
+
+  get 'incoming_freshmen' => 'freshmen#index'
+
   get 'projects/rittenhouse_orrery'
 
   get 'events/dd_rajiv_gandhi'
 
   get 'events/techbrunch_1.0' => 'events#techbrunch_1.0'
 
-  get 'events/ladyhacks'
+  get 'events/ladyhacks_2014'
 
   get 'events/dd_benedict_brown' => 'events#dd_benedict_brown-ies'
 

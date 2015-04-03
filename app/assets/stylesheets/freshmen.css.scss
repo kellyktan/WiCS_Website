@@ -1,0 +1,25 @@
+// Place all the styles related to the Freshmen controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.freshmen_format {
+	text-align: center;
+	margin: 1em;
+	padding: 1em;
+
+	.freshmen_text {
+		text-align: left;
+		width: 90%;
+		margin: 5% 0% 5% 5%;
+	}
+
+	.freshmen_quote {
+		text-align: left;
+		font-style: italic;
+		width: 80%;
+		margin: 5% 0% 10% 10%;
+		h4 {
+			font-style: normal;
+		}
+	}
+}
