@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'events/dd_aaron_roth'
+
   get 'events/femmehacks_2015'
 
   get 'incoming_freshmen' => 'freshmen#index'
